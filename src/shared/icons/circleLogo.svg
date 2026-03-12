@@ -1,0 +1,58 @@
+<svg viewBox="0 0 68 74" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68.000000" height="74.000000" fill="none">
+	<defs>
+		<g id="pixso_custom_effect_0">
+			<effect x="0.000000" y="12.000000" visibility="visible" fill="rgb(0,0,0)" fill-opacity="0.0299999993" effectType="dropShadow" stdDeviation="8" radius="0" />
+			<effect x="0.000000" y="0.000000" visibility="visible" fill="rgb(255,255,255)" fill-opacity="1" effectType="dropShadow" stdDeviation="0" radius="2" />
+		</g>
+		<filter id="filter_0" width="68.000000" height="74.000000" x="0.000000" y="0.000000" filterUnits="userSpaceOnUse" customEffect="url(#pixso_custom_effect_0)" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix" />
+			<feColorMatrix result="hardAlpha" in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0 " />
+			<feOffset dx="0.000000" dy="12.000000" in="hardAlpha" />
+			<feGaussianBlur stdDeviation="2.66666675" />
+			<feComposite k2="-1" k3="1" in2="hardAlpha" operator="out" />
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.03 0 " />
+			<feBlend result="effect_dropShadow_1" in2="BackgroundImageFix" mode="normal" />
+			<feColorMatrix result="hardAlpha" in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0 " />
+			<feOffset dx="-0.000000" dy="9.000000" in="hardAlpha" />
+			<feMorphology radius="2" operator="dilate" />
+			<feOffset dx="0.000000" dy="-9.000000" />
+			<feComposite k2="-1" k3="1" in2="hardAlpha" operator="out" />
+			<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 " />
+			<feBlend result="effect_dropShadow_2" in2="effect_dropShadow_1" mode="normal" />
+			<feBlend result="shape" in="SourceGraphic" in2="effect_dropShadow_2" mode="normal" />
+		</filter>
+		<linearGradient id="paint_linear_0" x1="34" x2="34" y1="54" y2="2" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(35,35,35)" offset="0.5" stop-opacity="0" />
+			<stop stop-color="rgb(35,35,35)" offset="1" stop-opacity="0.0599999987" />
+		</linearGradient>
+		<linearGradient id="paint_linear_1" x1="34" x2="34" y1="2" y2="54" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(237,237,237)" offset="0" stop-opacity="0.699999988" />
+			<stop stop-color="rgb(237,237,237)" offset="0.699999988" stop-opacity="0" />
+		</linearGradient>
+		<clipPath id="clipPath_0">
+			<rect width="52.000000" height="52.000000" x="8.000000" y="2.000000" rx="26.000000" fill="rgb(255,255,255)" />
+		</clipPath>
+		<clipPath id="clipPath_1">
+			<rect width="35.000000" height="34.000000" x="16.500000" y="11.000000" fill="rgb(255,255,255)" />
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clipPath_0)" filter="url(#filter_0)" customFrame="url(#clipPath_0)">
+		<rect id="Frame 1" width="52.000000" height="52.000000" x="8.000000" y="2.000000" rx="26.000000" fill="rgb(255,255,255)" />
+		<rect id="Frame 1" width="52.000000" height="52.000000" x="8.000000" y="2.000000" rx="26.000000" fill="url(#paint_linear_0)" />
+		<rect id="Frame 1" width="51.000000" height="51.000000" x="8.500000" y="2.500000" rx="25.500000" stroke="url(#paint_linear_1)" stroke-width="1.000000" />
+		<g id="Лого" clip-path="url(#clipPath_1)" customFrame="url(#clipPath_1)">
+			<rect id="Лого" width="35.000000" height="34.000000" x="16.500000" y="11.000000" fill="rgb(255,255,255)" fill-opacity="0" />
+			<path id="Vector" d="M21.12 33.5692C21.4254 33.5692 21.673 31.0758 21.673 28C21.673 24.9242 21.4254 22.4308 21.12 22.4308C20.8146 22.4308 20.567 24.9242 20.567 28C20.567 31.0758 20.8146 33.5692 21.12 33.5692Z" fill="rgb(0,0,0)" fill-rule="nonzero" />
+			<path id="Vector" d="M22.59 34.188C22.9302 34.188 23.206 31.4176 23.206 28C23.206 24.5825 22.9302 21.812 22.59 21.812C22.2498 21.812 21.974 24.5825 21.974 28C21.974 31.4176 22.2498 34.188 22.59 34.188Z" fill="rgb(0,0,0)" fill-rule="nonzero" />
+			<path id="Vector" d="M24.2281 34.8816C24.6031 34.8816 24.9071 31.8006 24.9071 28C24.9071 24.1994 24.6031 21.1184 24.2281 21.1184C23.8531 21.1184 23.5491 24.1994 23.5491 28C23.5491 31.8006 23.8531 34.8816 24.2281 34.8816Z" fill="rgb(0,0,0)" fill-rule="nonzero" />
+			<path id="Vector" d="M26.041 35.6432C26.4586 35.6432 26.797 32.2212 26.797 28C26.797 23.7788 26.4586 20.3568 26.041 20.3568C25.6235 20.3568 25.285 23.7788 25.285 28C25.285 32.2212 25.6235 35.6432 26.041 35.6432Z" fill="rgb(0,0,0)" fill-rule="nonzero" />
+			<path id="Vector" d="M28.057 36.4932C28.5209 36.4932 28.897 32.6907 28.897 28C28.897 23.3094 28.5209 19.5068 28.057 19.5068C27.5932 19.5068 27.217 23.3094 27.217 28C27.217 32.6907 27.5932 36.4932 28.057 36.4932Z" fill="rgb(0,0,0)" fill-rule="nonzero" />
+			<path id="Vector" d="M30.304 37.4384C30.8182 37.4384 31.235 33.2127 31.235 28C31.235 22.7874 30.8182 18.5616 30.304 18.5616C29.7899 18.5616 29.373 22.7874 29.373 28C29.373 33.2127 29.7899 37.4384 30.304 37.4384Z" fill="rgb(0,0,0)" fill-rule="nonzero" />
+			<path id="Vector" d="M32.796 38.4856C33.3682 38.4856 33.832 33.791 33.832 28C33.832 22.209 33.3682 17.5144 32.796 17.5144C32.2238 17.5144 31.76 22.209 31.76 28C31.76 33.791 32.2238 38.4856 32.796 38.4856Z" fill="rgb(0,0,0)" fill-rule="nonzero" />
+			<path id="Vector" d="M35.561 39.6484C36.1989 39.6484 36.716 34.4332 36.716 28C36.716 21.5668 36.1989 16.3516 35.561 16.3516C34.9231 16.3516 34.406 21.5668 34.406 28C34.406 34.4332 34.9231 39.6484 35.561 39.6484Z" fill="rgb(0,0,0)" fill-rule="nonzero" />
+			<path id="Vector" d="M38.634 40.9471C39.3415 40.9471 39.915 35.1505 39.915 27.9999C39.915 20.8494 39.3415 15.0527 38.634 15.0527C37.9265 15.0527 37.353 20.8494 37.353 27.9999C37.353 35.1505 37.9265 40.9471 38.634 40.9471Z" fill="rgb(0,0,0)" fill-rule="nonzero" />
+			<path id="Vector" d="M42.05 42.382C42.8348 42.382 43.471 35.943 43.471 28C43.471 20.0571 42.8348 13.618 42.05 13.618C41.2653 13.618 40.629 20.0571 40.629 28C40.629 35.943 41.2653 42.382 42.05 42.382Z" fill="rgb(0,0,0)" fill-rule="nonzero" />
+			<path id="Vector" d="M45.844 43.98C46.7177 43.98 47.426 36.8255 47.426 28C47.426 19.1745 46.7177 12.02 45.844 12.02C44.9702 12.02 44.262 19.1745 44.262 28C44.262 36.8255 44.9702 43.98 45.844 43.98Z" fill="rgb(0,0,0)" fill-rule="nonzero" />
+		</g>
+	</g>
+</svg>

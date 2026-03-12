@@ -1,0 +1,16 @@
+.wrapper {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.headerSpacer {
+  flex: 1;
+}
+
+.logoutBtn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 30px;
+}

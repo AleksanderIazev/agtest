@@ -1,0 +1,101 @@
+.addButton {
+  width: 52px;
+  height: 27px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 4px;
+  border-radius: 23px;
+  background: rgba(36, 46, 219, 1);
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  line-height: 1;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+// Полоска слева при наведении и выборе
+.firstCell {
+  position: relative;
+
+  &::before {
+    content: '';
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3px;
+    height: 53px;
+    background: rgba(60, 83, 142, 1);
+  }
+}
+
+.rowCustomStyles:hover .firstCell::before,
+.rowSelected .firstCell::before {
+  display: block;
+}
+
+// Кнопка "Добавить" в тулбаре
+.addProductButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  width: 147px;
+  height: 42px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  background: rgba(36, 46, 219, 1);
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.addProductIcon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 50%;
+}
+
+.toolbarButtonWrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.toolbarRefreshButton {
+  border: 1px solid rgba(236, 236, 235, 1);
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scaleX(-1);
+  > svg {
+    fill: rgba(81, 81, 97, 1);
+    rotate: 45deg;
+  }
+}

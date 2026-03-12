@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.checkbox {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  padding: 0;
+  flex-shrink: 0;
+  appearance: none;
+  border: 2px solid rgba(237, 237, 237, 1);
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 1);
+  cursor: pointer;
+
+  &:checked {
+    background: rgba(237, 237, 237, 1);
+  }
+}
+
+.label {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0;
+  color: rgba(156, 156, 156, 1);
+  text-align: left;
+}
